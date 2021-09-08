@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		B1D8AFC326E8C0BA00A2BB68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D8AFC226E8C0BA00A2BB68 /* Preview Assets.xcassets */; };
 		B1D8AFCE26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFCD26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift */; };
 		B1D8AFD926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFD826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift */; };
+		B1D8AFE826E8D61100A2BB68 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B1D8AFE726E8D61100A2BB68 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D8AFE826E8D61100A2BB68 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = SwiftAlgoPlayground;
+			packageProductDependencies = (
+				B1D8AFE726E8D61100A2BB68 /* Algorithms */,
+			);
 			productName = SwiftAlgoPlayground;
 			productReference = B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = B1D8AFAF26E8C0B700A2BB68;
+			packageReferences = (
+				B1D8AFE626E8D61100A2BB68 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = B1D8AFB926E8C0B700A2BB68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -574,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1D8AFE626E8D61100A2BB68 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1D8AFE726E8D61100A2BB68 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1D8AFE626E8D61100A2BB68 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1D8AFB026E8C0B700A2BB68 /* Project object */;
 }
