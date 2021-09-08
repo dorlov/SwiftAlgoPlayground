@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D8AFBC26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFBB26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift */; };
+		B1D8AFBE26E8C0B700A2BB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFBD26E8C0B700A2BB68 /* ContentView.swift */; };
+		B1D8AFC026E8C0BA00A2BB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D8AFBF26E8C0BA00A2BB68 /* Assets.xcassets */; };
+		B1D8AFC326E8C0BA00A2BB68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D8AFC226E8C0BA00A2BB68 /* Preview Assets.xcassets */; };
+		B1D8AFCE26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFCD26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift */; };
+		B1D8AFD926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFD826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1D8AFCA26E8C0BB00A2BB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D8AFB026E8C0B700A2BB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D8AFB726E8C0B700A2BB68;
+			remoteInfo = SwiftAlgoPlayground;
+		};
+		B1D8AFD526E8C0BB00A2BB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D8AFB026E8C0B700A2BB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D8AFB726E8C0B700A2BB68;
+			remoteInfo = SwiftAlgoPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgoPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D8AFBB26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoPlaygroundApp.swift; sourceTree = "<group>"; };
+		B1D8AFBD26E8C0B700A2BB68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1D8AFBF26E8C0BA00A2BB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1D8AFC226E8C0BA00A2BB68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1D8AFC426E8C0BA00A2BB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D8AFC926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgoPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D8AFCD26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoPlaygroundTests.swift; sourceTree = "<group>"; };
+		B1D8AFCF26E8C0BB00A2BB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D8AFD426E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgoPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D8AFD826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoPlaygroundUITests.swift; sourceTree = "<group>"; };
+		B1D8AFDA26E8C0BB00A2BB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D8AFB526E8C0B700A2BB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8AFC626E8C0BB00A2BB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8AFD126E8C0BB00A2BB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D8AFAF26E8C0B700A2BB68 = {
+			isa = PBXGroup;
+			children = (
+				B1D8AFBA26E8C0B700A2BB68 /* SwiftAlgoPlayground */,
+				B1D8AFCC26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests */,
+				B1D8AFD726E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests */,
+				B1D8AFB926E8C0B700A2BB68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D8AFB926E8C0B700A2BB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */,
+				B1D8AFC926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.xctest */,
+				B1D8AFD426E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D8AFBA26E8C0B700A2BB68 /* SwiftAlgoPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8AFBB26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift */,
+				B1D8AFBD26E8C0B700A2BB68 /* ContentView.swift */,
+				B1D8AFBF26E8C0BA00A2BB68 /* Assets.xcassets */,
+				B1D8AFC426E8C0BA00A2BB68 /* Info.plist */,
+				B1D8AFC126E8C0BA00A2BB68 /* Preview Content */,
+			);
+			path = SwiftAlgoPlayground;
+			sourceTree = "<group>";
+		};
+		B1D8AFC126E8C0BA00A2BB68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8AFC226E8C0BA00A2BB68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1D8AFCC26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8AFCD26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift */,
+				B1D8AFCF26E8C0BB00A2BB68 /* Info.plist */,
+			);
+			path = SwiftAlgoPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		B1D8AFD726E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D8AFD826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift */,
+				B1D8AFDA26E8C0BB00A2BB68 /* Info.plist */,
+			);
+			path = SwiftAlgoPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D8AFDD26E8C0BB00A2BB68 /* Build configuration list for PBXNativeTarget "SwiftAlgoPlayground" */;
+			buildPhases = (
+				B1D8AFB426E8C0B700A2BB68 /* Sources */,
+				B1D8AFB526E8C0B700A2BB68 /* Frameworks */,
+				B1D8AFB626E8C0B700A2BB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAlgoPlayground;
+			productName = SwiftAlgoPlayground;
+			productReference = B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D8AFC826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D8AFE026E8C0BB00A2BB68 /* Build configuration list for PBXNativeTarget "SwiftAlgoPlaygroundTests" */;
+			buildPhases = (
+				B1D8AFC526E8C0BB00A2BB68 /* Sources */,
+				B1D8AFC626E8C0BB00A2BB68 /* Frameworks */,
+				B1D8AFC726E8C0BB00A2BB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D8AFCB26E8C0BB00A2BB68 /* PBXTargetDependency */,
+			);
+			name = SwiftAlgoPlaygroundTests;
+			productName = SwiftAlgoPlaygroundTests;
+			productReference = B1D8AFC926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D8AFD326E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D8AFE326E8C0BB00A2BB68 /* Build configuration list for PBXNativeTarget "SwiftAlgoPlaygroundUITests" */;
+			buildPhases = (
+				B1D8AFD026E8C0BB00A2BB68 /* Sources */,
+				B1D8AFD126E8C0BB00A2BB68 /* Frameworks */,
+				B1D8AFD226E8C0BB00A2BB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D8AFD626E8C0BB00A2BB68 /* PBXTargetDependency */,
+			);
+			name = SwiftAlgoPlaygroundUITests;
+			productName = SwiftAlgoPlaygroundUITests;
+			productReference = B1D8AFD426E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D8AFB026E8C0B700A2BB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B1D8AFB726E8C0B700A2BB68 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B1D8AFC826E8C0BB00A2BB68 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B1D8AFB726E8C0B700A2BB68;
+					};
+					B1D8AFD326E8C0BB00A2BB68 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B1D8AFB726E8C0B700A2BB68;
+					};
+				};
+			};
+			buildConfigurationList = B1D8AFB326E8C0B700A2BB68 /* Build configuration list for PBXProject "SwiftAlgoPlayground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D8AFAF26E8C0B700A2BB68;
+			productRefGroup = B1D8AFB926E8C0B700A2BB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */,
+				B1D8AFC826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests */,
+				B1D8AFD326E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D8AFB626E8C0B700A2BB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D8AFC326E8C0BA00A2BB68 /* Preview Assets.xcassets in Resources */,
+				B1D8AFC026E8C0BA00A2BB68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8AFC726E8C0BB00A2BB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8AFD226E8C0BB00A2BB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D8AFB426E8C0B700A2BB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D8AFBE26E8C0B700A2BB68 /* ContentView.swift in Sources */,
+				B1D8AFBC26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8AFC526E8C0BB00A2BB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D8AFCE26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D8AFD026E8C0BB00A2BB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D8AFD926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D8AFCB26E8C0BB00A2BB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */;
+			targetProxy = B1D8AFCA26E8C0BB00A2BB68 /* PBXContainerItemProxy */;
+		};
+		B1D8AFD626E8C0BB00A2BB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */;
+			targetProxy = B1D8AFD526E8C0BB00A2BB68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1D8AFDB26E8C0BB00A2BB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1D8AFDC26E8C0BB00A2BB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D8AFDE26E8C0BB00A2BB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftAlgoPlayground/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftAlgoPlayground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.SwiftAlgoPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D8AFDF26E8C0BB00A2BB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftAlgoPlayground/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftAlgoPlayground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.SwiftAlgoPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1D8AFE126E8C0BB00A2BB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftAlgoPlaygroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.SwiftAlgoPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAlgoPlayground.app/SwiftAlgoPlayground";
+			};
+			name = Debug;
+		};
+		B1D8AFE226E8C0BB00A2BB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftAlgoPlaygroundTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.SwiftAlgoPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAlgoPlayground.app/SwiftAlgoPlayground";
+			};
+			name = Release;
+		};
+		B1D8AFE426E8C0BB00A2BB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftAlgoPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.SwiftAlgoPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftAlgoPlayground;
+			};
+			name = Debug;
+		};
+		B1D8AFE526E8C0BB00A2BB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftAlgoPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.SwiftAlgoPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftAlgoPlayground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D8AFB326E8C0B700A2BB68 /* Build configuration list for PBXProject "SwiftAlgoPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D8AFDB26E8C0BB00A2BB68 /* Debug */,
+				B1D8AFDC26E8C0BB00A2BB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D8AFDD26E8C0BB00A2BB68 /* Build configuration list for PBXNativeTarget "SwiftAlgoPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D8AFDE26E8C0BB00A2BB68 /* Debug */,
+				B1D8AFDF26E8C0BB00A2BB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D8AFE026E8C0BB00A2BB68 /* Build configuration list for PBXNativeTarget "SwiftAlgoPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D8AFE126E8C0BB00A2BB68 /* Debug */,
+				B1D8AFE226E8C0BB00A2BB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D8AFE326E8C0BB00A2BB68 /* Build configuration list for PBXNativeTarget "SwiftAlgoPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D8AFE426E8C0BB00A2BB68 /* Debug */,
+				B1D8AFE526E8C0BB00A2BB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D8AFB026E8C0B700A2BB68 /* Project object */;
+}
