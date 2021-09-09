@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B119749026E9B6800079FBD5 /* AlgoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B119748726E9B6800079FBD5 /* AlgoModel.framework */; };
+		B119749726E9B6800079FBD5 /* AlgoModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119749626E9B6800079FBD5 /* AlgoModelTests.swift */; };
+		B119749926E9B6800079FBD5 /* AlgoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B119748926E9B6800079FBD5 /* AlgoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11974A726E9B7540079FBD5 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11974A626E9B7540079FBD5 /* Ticket.swift */; };
 		B1D8AFBC26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFBB26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift */; };
 		B1D8AFBE26E8C0B700A2BB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFBD26E8C0B700A2BB68 /* ContentView.swift */; };
 		B1D8AFC026E8C0BA00A2BB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D8AFBF26E8C0BA00A2BB68 /* Assets.xcassets */; };
@@ -17,6 +21,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B119749126E9B6800079FBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D8AFB026E8C0B700A2BB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B119748626E9B6800079FBD5;
+			remoteInfo = AlgoModel;
+		};
+		B119749326E9B6800079FBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D8AFB026E8C0B700A2BB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D8AFB726E8C0B700A2BB68;
+			remoteInfo = SwiftAlgoPlayground;
+		};
 		B1D8AFCA26E8C0BB00A2BB68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1D8AFB026E8C0B700A2BB68 /* Project object */;
@@ -34,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B119748726E9B6800079FBD5 /* AlgoModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B119748926E9B6800079FBD5 /* AlgoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgoModel.h; sourceTree = "<group>"; };
+		B119748A26E9B6800079FBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B119748F26E9B6800079FBD5 /* AlgoModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B119749626E9B6800079FBD5 /* AlgoModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoModelTests.swift; sourceTree = "<group>"; };
+		B119749826E9B6800079FBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11974A526E9B7250079FBD5 /* Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Model.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B11974A626E9B7540079FBD5 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgoPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D8AFBB26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoPlaygroundApp.swift; sourceTree = "<group>"; };
 		B1D8AFBD26E8C0B700A2BB68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +75,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B119748426E9B6800079FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119748C26E9B6800079FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119749026E9B6800079FBD5 /* AlgoModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1D8AFB526E8C0B700A2BB68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,13 +115,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B119747F26E9B61D0079FBD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B119748826E9B6800079FBD5 /* AlgoModel */ = {
+			isa = PBXGroup;
+			children = (
+				B11974A626E9B7540079FBD5 /* Ticket.swift */,
+				B119748926E9B6800079FBD5 /* AlgoModel.h */,
+				B119748A26E9B6800079FBD5 /* Info.plist */,
+			);
+			path = AlgoModel;
+			sourceTree = "<group>";
+		};
+		B119749526E9B6800079FBD5 /* AlgoModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				B119749626E9B6800079FBD5 /* AlgoModelTests.swift */,
+				B119749826E9B6800079FBD5 /* Info.plist */,
+			);
+			path = AlgoModelTests;
+			sourceTree = "<group>";
+		};
 		B1D8AFAF26E8C0B700A2BB68 = {
 			isa = PBXGroup;
 			children = (
+				B11974A526E9B7250079FBD5 /* Model.playground */,
 				B1D8AFBA26E8C0B700A2BB68 /* SwiftAlgoPlayground */,
 				B1D8AFCC26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests */,
 				B1D8AFD726E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests */,
+				B119748826E9B6800079FBD5 /* AlgoModel */,
+				B119749526E9B6800079FBD5 /* AlgoModelTests */,
 				B1D8AFB926E8C0B700A2BB68 /* Products */,
+				B119747F26E9B61D0079FBD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +161,8 @@
 				B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */,
 				B1D8AFC926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.xctest */,
 				B1D8AFD426E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.xctest */,
+				B119748726E9B6800079FBD5 /* AlgoModel.framework */,
+				B119748F26E9B6800079FBD5 /* AlgoModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,7 +207,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B119748226E9B6800079FBD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119749926E9B6800079FBD5 /* AlgoModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		B119748626E9B6800079FBD5 /* AlgoModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B119749E26E9B6800079FBD5 /* Build configuration list for PBXNativeTarget "AlgoModel" */;
+			buildPhases = (
+				B119748226E9B6800079FBD5 /* Headers */,
+				B119748326E9B6800079FBD5 /* Sources */,
+				B119748426E9B6800079FBD5 /* Frameworks */,
+				B119748526E9B6800079FBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoModel;
+			productName = AlgoModel;
+			productReference = B119748726E9B6800079FBD5 /* AlgoModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B119748E26E9B6800079FBD5 /* AlgoModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11974A226E9B6800079FBD5 /* Build configuration list for PBXNativeTarget "AlgoModelTests" */;
+			buildPhases = (
+				B119748B26E9B6800079FBD5 /* Sources */,
+				B119748C26E9B6800079FBD5 /* Frameworks */,
+				B119748D26E9B6800079FBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B119749226E9B6800079FBD5 /* PBXTargetDependency */,
+				B119749426E9B6800079FBD5 /* PBXTargetDependency */,
+			);
+			name = AlgoModelTests;
+			productName = AlgoModelTests;
+			productReference = B119748F26E9B6800079FBD5 /* AlgoModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D8AFDD26E8C0BB00A2BB68 /* Build configuration list for PBXNativeTarget "SwiftAlgoPlayground" */;
@@ -200,6 +321,13 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					B119748626E9B6800079FBD5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B119748E26E9B6800079FBD5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B1D8AFB726E8C0B700A2BB68;
+					};
 					B1D8AFB726E8C0B700A2BB68 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -232,11 +360,27 @@
 				B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */,
 				B1D8AFC826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests */,
 				B1D8AFD326E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests */,
+				B119748626E9B6800079FBD5 /* AlgoModel */,
+				B119748E26E9B6800079FBD5 /* AlgoModelTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B119748526E9B6800079FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119748D26E9B6800079FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1D8AFB626E8C0B700A2BB68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +407,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B119748326E9B6800079FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11974A726E9B7540079FBD5 /* Ticket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B119748B26E9B6800079FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B119749726E9B6800079FBD5 /* AlgoModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1D8AFB426E8C0B700A2BB68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +451,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B119749226E9B6800079FBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B119748626E9B6800079FBD5 /* AlgoModel */;
+			targetProxy = B119749126E9B6800079FBD5 /* PBXContainerItemProxy */;
+		};
+		B119749426E9B6800079FBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */;
+			targetProxy = B119749326E9B6800079FBD5 /* PBXContainerItemProxy */;
+		};
 		B1D8AFCB26E8C0BB00A2BB68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B1D8AFB726E8C0B700A2BB68 /* SwiftAlgoPlayground */;
@@ -304,6 +474,96 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		B119749F26E9B6800079FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlgoModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.AlgoModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B11974A026E9B6800079FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlgoModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.AlgoModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B11974A326E9B6800079FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlgoModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.AlgoModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAlgoPlayground.app/SwiftAlgoPlayground";
+			};
+			name = Debug;
+		};
+		B11974A426E9B6800079FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlgoModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorlov.AlgoModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAlgoPlayground.app/SwiftAlgoPlayground";
+			};
+			name = Release;
+		};
 		B1D8AFDB26E8C0BB00A2BB68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -545,6 +805,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B119749E26E9B6800079FBD5 /* Build configuration list for PBXNativeTarget "AlgoModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B119749F26E9B6800079FBD5 /* Debug */,
+				B11974A026E9B6800079FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11974A226E9B6800079FBD5 /* Build configuration list for PBXNativeTarget "AlgoModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11974A326E9B6800079FBD5 /* Debug */,
+				B11974A426E9B6800079FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B1D8AFB326E8C0B700A2BB68 /* Build configuration list for PBXProject "SwiftAlgoPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
