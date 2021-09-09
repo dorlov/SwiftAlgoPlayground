@@ -870,8 +870,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-algorithms";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.1;
+				kind = exactVersion;
+				version = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
