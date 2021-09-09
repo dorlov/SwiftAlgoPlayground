@@ -3,8 +3,7 @@ import AlgoModel
 import Algorithms
 
 func partition() {
-    var tickets = Ticket.orderedTickets(count: 4) + Ticket.userGeneratedTickets(count: 4)
-    tickets.shuffle()
+    var tickets = Ticket.shuffledTickets
         
     print(tickets.map { $0.title })
     
@@ -14,3 +13,16 @@ func partition() {
     print(pIndex)
 }
 
+func stablePartion() {
+    var tickets = Ticket.shuffledTickets
+        
+    print(tickets.map { $0.title })
+    
+    let pIndex = tickets.stablePartition(by: { $0.createdAt == nil })
+    
+    print(tickets.map { $0.title })
+    print(pIndex)
+}
+
+partition()
+stablePartion()

@@ -11,13 +11,14 @@
 		B119749726E9B6800079FBD5 /* AlgoModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B119749626E9B6800079FBD5 /* AlgoModelTests.swift */; };
 		B119749926E9B6800079FBD5 /* AlgoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B119748926E9B6800079FBD5 /* AlgoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B11974A726E9B7540079FBD5 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11974A626E9B7540079FBD5 /* Ticket.swift */; };
+		B1943FFF26E9BBAE00A74215 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B1943FFE26E9BBAE00A74215 /* Algorithms */; };
+		B1AEE85A26E9B98B00E7D2E5 /* Ticket+Stubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEE85926E9B98B00E7D2E5 /* Ticket+Stubs.swift */; };
 		B1D8AFBC26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFBB26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift */; };
 		B1D8AFBE26E8C0B700A2BB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFBD26E8C0B700A2BB68 /* ContentView.swift */; };
 		B1D8AFC026E8C0BA00A2BB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D8AFBF26E8C0BA00A2BB68 /* Assets.xcassets */; };
 		B1D8AFC326E8C0BA00A2BB68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D8AFC226E8C0BA00A2BB68 /* Preview Assets.xcassets */; };
 		B1D8AFCE26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFCD26E8C0BB00A2BB68 /* SwiftAlgoPlaygroundTests.swift */; };
 		B1D8AFD926E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8AFD826E8C0BB00A2BB68 /* SwiftAlgoPlaygroundUITests.swift */; };
-		B1D8AFE826E8D61100A2BB68 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B1D8AFE726E8D61100A2BB68 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		B119749826E9B6800079FBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B11974A526E9B7250079FBD5 /* Model.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Model.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B11974A626E9B7540079FBD5 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		B1AEE85926E9B98B00E7D2E5 /* Ticket+Stubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ticket+Stubs.swift"; sourceTree = "<group>"; };
 		B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgoPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D8AFBB26E8C0B700A2BB68 /* SwiftAlgoPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgoPlaygroundApp.swift; sourceTree = "<group>"; };
 		B1D8AFBD26E8C0B700A2BB68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D8AFE826E8D61100A2BB68 /* Algorithms in Frameworks */,
+				B1943FFF26E9BBAE00A74215 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				B11974A626E9B7540079FBD5 /* Ticket.swift */,
+				B1AEE85926E9B98B00E7D2E5 /* Ticket+Stubs.swift */,
 				B119748926E9B6800079FBD5 /* AlgoModel.h */,
 				B119748A26E9B6800079FBD5 /* Info.plist */,
 			);
@@ -270,7 +273,7 @@
 			);
 			name = SwiftAlgoPlayground;
 			packageProductDependencies = (
-				B1D8AFE726E8D61100A2BB68 /* Algorithms */,
+				B1943FFE26E9BBAE00A74215 /* Algorithms */,
 			);
 			productName = SwiftAlgoPlayground;
 			productReference = B1D8AFB826E8C0B700A2BB68 /* SwiftAlgoPlayground.app */;
@@ -412,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11974A726E9B7540079FBD5 /* Ticket.swift in Sources */,
+				B1AEE85A26E9B98B00E7D2E5 /* Ticket+Stubs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,7 +877,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B1D8AFE726E8D61100A2BB68 /* Algorithms */ = {
+		B1943FFE26E9BBAE00A74215 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B1D8AFE626E8D61100A2BB68 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 			productName = Algorithms;
