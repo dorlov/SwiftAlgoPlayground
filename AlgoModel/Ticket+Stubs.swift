@@ -14,7 +14,8 @@ public extension Ticket {
             Ticket(
                 title: "User Generated Ticket \($0)",
                 order: $0,
-                createdAt: Date().date(byAddingHours: $0)
+                createdAt: Date().date(byAddingHours: $0),
+                isUserGenerated: true
             )
         }
     }

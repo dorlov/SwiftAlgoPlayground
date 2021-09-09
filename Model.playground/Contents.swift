@@ -3,6 +3,7 @@ import AlgoModel
 import Algorithms
 
 func partition() {
+    print(#function)
     var tickets = Ticket.shuffledTickets
         
     print(tickets.map { $0.title })
@@ -14,6 +15,7 @@ func partition() {
 }
 
 func stablePartion() {
+    print(#function)
     var tickets = Ticket.shuffledTickets
         
     print(tickets.map { $0.title })
@@ -24,5 +26,15 @@ func stablePartion() {
     print(pIndex)
 }
 
-partition()
-stablePartion()
+func sortWithStablePartition() {
+    print(#function)
+    
+    var tickets = Ticket.shuffledTickets
+    tickets.sort(by: { $0.order < $1.order })
+    
+    print(tickets.map { $0.title })
+    tickets.stablePartition(by: { $0.isUserGenerated })
+    print(tickets.map { $0.title })
+}
+
+sortWithStablePartition()

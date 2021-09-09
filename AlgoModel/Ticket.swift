@@ -7,12 +7,13 @@
 
 import Foundation
 
-public struct Ticket {
+public struct Ticket: Equatable {
     
     public var id: UUID = .init()
     public var title: String
     public var order: Int
     public var createdAt: Date?
+    public var isUserGenerated: Bool = false
 
 }
 
